@@ -1,7 +1,23 @@
 h1{
     color: aqua;
+    background-color: pink;
+    width: 9%;
+   height: 10%;
+   font-style: oblique;
 }
 
 p{
     color: pink;
+    font-size:x-large;
+    width: 50%;
+    padding
+    border: 1px solid black;
+}
+
+h2{
+    color: rgb(176, 171, 179);
+}
+
+a{
+color: pink;
 }
