@@ -1,23 +1,54 @@
+body{
+
+    background-color: rgb(216, 236, 246);
+}
 h1{
     color: aqua;
     background-color: pink;
-    width: 9%;
+    width: 12%;
    height: 10%;
    font-style: oblique;
 }
 
 p{
-    color: pink;
-    font-size:x-large;
-    width: 50%;
-    padding
-    border: 1px solid black;
+    
+    border:solid black;
+    font-size:large;
+    width: 60%;
+    margin-left: 20%;  
+   padding: 1%;
+
 }
 
 h2{
-    color: rgb(176, 171, 179);
+    color: red;
 }
 
 a{
-color: pink;
+    color: purple;
+    text-decoration: none;
+    opacity: .1;
+    }
+    
+    a:hover{
+    color: purple;
+    opacity: 1;
+    }
+
+    #messi{
+        opacity: 1;
+        }
+        
+        #messi:hover{
+            opacity: 1;
+        }
+
+
+.top{
+    color: blue;
+}
+
+#first{
+
+    color: orange;
 }
