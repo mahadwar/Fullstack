@@ -1,7 +1,21 @@
-ul{
-    list-style-type: none;
-    margin: 0%;
-    padding: 0%;
-    overflow: hidden;
-    background-color: #333;
+
+body{
+    background-color: yellow;}
+li {
+   list-style-type: none;
+   background-color: blue;
+   padding: 1%;
+   float: left;
+   
 }
+  
+li :hover{
+
+    color: aquamarine;
+    background-color: rebeccapurple;
+}
+
+a{
+    text-decoration: none;
+}
+

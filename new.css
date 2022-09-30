@@ -1,4 +1,4 @@
-#lists{
+
    list-style-type: none;
    margin: 0%;
    padding: 2%;
@@ -8,6 +8,7 @@
    border-right: 1px solid white;
 }
 
-#list a{
-    text-decoration: none;
+ol{
+
+
 }
