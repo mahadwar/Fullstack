@@ -1,14 +1,54 @@
 
+body{
+   width: 50%;
+   margin: auto;
+}
+
+  #lists{
+   text-decoration: none;
    list-style-type: none;
    margin: 0%;
    padding: 2%;
    overflow: hidden;
    background-color: #333;
    float: left;
-   border-right: 1px solid white;
+   
+   
+   }
+
+#lists a {
+   text-decoration: none;
 }
 
-ol{
-
-
+#lists :hover{
+   color: blueviolet;
+   text-decoration: underline;
 }
+#list{
+   text-decoration: none;
+  padding: 2%;
+   float: left;
+   list-style-type: none;
+   background-color: red;
+   }
+
+   #list a {
+      text-decoration: none;
+   }
+
+   .sup{
+
+      list-style-type: none;
+   }
+
+   .sup a {
+color: orange;
+      text-decoration: none;
+   }
+
+   .sup :hover{
+      color: cyan;
+      text-decoration:underline;
+
+   }
+   
