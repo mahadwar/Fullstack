@@ -4,7 +4,7 @@ body{
    margin: auto;
 }
 
-  #lists{
+#lists{
    text-decoration: none;
    list-style-type: none;
    margin: 0%;
@@ -12,34 +12,38 @@ body{
    overflow: hidden;
    background-color: #333;
    float: left;
+}
    
    
-   }
-
-#lists a {
+#lists a{
    text-decoration: none;
+   color: red;
+   opacity: 0.4;
+   
 }
 
-#lists :hover{
-   color: blueviolet;
+#lists a:hover{
+   color: aqua;
+   opacity: 1;
    text-decoration: underline;
+  
+   
 }
-#list{
-   text-decoration: none;
-  padding: 2%;
-   float: left;
-   list-style-type: none;
-   background-color: red;
-   }
 
-   #list a {
-      text-decoration: none;
-   }
+#blkpic{
+   float: right;
 
-   .sup{
+}
 
-      list-style-type: none;
-   }
+#dollar{
+   float: right;
+
+}
+
+
+  
+
+   
 
    .sup a {
 color: orange;
