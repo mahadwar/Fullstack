@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 75%;
+		margin: auto;
+    background-color: skyblue;
+}
+
+sarah,
+mike,
+jane,
+jacob,
+muhammed {
+    border: solid black;
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+container{
+    
+    background-color: skyblue;
+    height: 1000px;
+    display: grid;
+    grid-template-areas:
+    'sarah sarah mike jane'
+    'jacob muhammed muhammed jane';
+  
+    
+    
+   
+}
+
+sarah{
+    grid-area: sarah ;
+    text-align: center;
+  
+}
+
+mike{
+    grid-area: mike ;
+}
+
+jane{
+    grid-area:jane ;
+}
+
+jacob{
+    grid-area: jacob;
+}
+
+muhammed{
+    grid-area:muhammed ;
+}
+
